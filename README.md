@@ -26,13 +26,13 @@ To install `obstools`, we strongly recommend installing and creating a `conda` e
 - Create a conda environment (here we call it `mss` for the name of the symposium) and install `python=3.8` and `obspy`:
 
 ```bash
-conda create -n mss python=3.8 obspy -c conda-forge
+conda create -n msw python=3.8 obspy -c conda-forge
 ```
 
 - Activate the environment:
 
 ```bash
-conda activate mss
+conda activate msw
 ```
 
 - Install the required [`stdb`](https://github.com/schaefferaj/StDb) package using `pip`:
