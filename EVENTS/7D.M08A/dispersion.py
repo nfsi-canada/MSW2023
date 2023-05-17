@@ -59,7 +59,7 @@ plt.subplot(121)
 cax = plt.pcolormesh(Y.T, X.T, amp_raw.T, shading='nearest')
 plt.plot(1./fcurve_raw_int, vcurve_raw_int, 'r-', lw=2.5, label='Observed')
 plt.plot(1./f_prem*1000., U_prem, 'w:', label='PREM')
-plt.plot(1./f_prem*1000., U_GDM52, 'w-.', label='GDM52')
+plt.plot(1./f_prem*1000., U_GDM52, 'w--', label='GDM52')
 
 plt.xscale('log')
 plt.colorbar(cax)
